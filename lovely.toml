@@ -1,0 +1,20 @@
+[manifest]
+version = "1.0.0"
+
+# Make the play button container unfocusable by analog stick
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = "local play_button = {n=G.UIT.C, config={id = 'play_button', align = \"tm\", minw = 2.5, padding = 0.3, r = 0.1, hover = true, colour = G.C.BLUE, button = \"play_cards_from_highlighted\", one_press = true, shadow = true, func = 'can_play'}, nodes={"
+payload = "local play_button = {n=G.UIT.C, config={id = 'play_button', align = \"tm\", minw = 2.5, padding = 0.3, r = 0.1, hover = true, colour = G.C.BLUE, button = \"play_cards_from_highlighted\", one_press = true, shadow = true, focus_args = {type = 'none'}, func = 'can_play'}, nodes={"
+position = "at"
+match_indent = true
+
+# Make the discard button container unfocusable by analog stick
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = "local discard_button = {n=G.UIT.C, config={id = 'discard_button',align = \"tm\", padding = 0.3, r = 0.1, minw = 2.5, minh = button_height, hover = true, colour = G.C.RED, button = \"discard_cards_from_highlighted\", one_press = true, shadow = true, func = 'can_discard'}, nodes={"
+payload = "local discard_button = {n=G.UIT.C, config={id = 'discard_button',align = \"tm\", padding = 0.3, r = 0.1, minw = 2.5, minh = button_height, hover = true, colour = G.C.RED, button = \"discard_cards_from_highlighted\", one_press = true, shadow = true, focus_args = {type = 'none'}, func = 'can_discard'}, nodes={"
+position = "at"
+match_indent = true
