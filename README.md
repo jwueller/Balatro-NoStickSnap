@@ -7,8 +7,8 @@ The buttons remain fully functional. Gamepad button presses, mouse clicks, and t
 ## Installation
 
 1. Install [lovely-injector](https://github.com/ethangreen-dev/lovely-injector) if you haven't already.
-2. Download the latest release from the [releases page](https://github.com/jwueller/Balatro-NoStickSnap/releases/latest) and extract it.
-3. Copy the `NoStickSnap` folder into your Balatro `Mods` directory:
+2. Download the latest release from the [releases page](https://github.com/jwueller/Balatro-NoStickSnap/releases/latest).
+3. Extract the `NoStickSnap` folder into your Balatro `Mods` directory:
    - **Windows:** `%AppData%\Balatro\Mods\`
    - **Linux/Steam Deck:** `~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods/`
 4. Launch Balatro. The mod is applied automatically by lovely.
