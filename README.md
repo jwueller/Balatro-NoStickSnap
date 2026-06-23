@@ -1,4 +1,4 @@
-# NoStickSnap
+# [NoStickSnap](https://github.com/jwueller/Balatro-NoStickSnap)
 
 A [Balatro](https://www.playbalatro.com/) QOL mod that prevents the analog stick from snapping to the "Play Hand" and "Discard" buttons. These actions are already bound to physical gamepad buttons (X and Y), so focusing them with the stick is unnecessary and easy to do accidentally while selecting cards.
 

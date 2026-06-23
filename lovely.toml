@@ -1,7 +1,8 @@
-[manifest]
-version = "1.0.0"
+# https://github.com/jwueller/Balatro-NoStickSnap
 
-# Make the play button container unfocusable by analog stick
+[manifest]
+version = "0.0.0"
+
 [[patches]]
 [patches.pattern]
 target = "functions/UI_definitions.lua"
@@ -10,7 +11,6 @@ payload = "local play_button = {n=G.UIT.C, config={id = 'play_button', align = \
 position = "at"
 match_indent = true
 
-# Make the discard button container unfocusable by analog stick
 [[patches]]
 [patches.pattern]
 target = "functions/UI_definitions.lua"
